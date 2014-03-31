@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Write-Code]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-03-31T15:40:32-03:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://write-code.github.io//atom.xml" rel="self"/>
+  <link href="http://write-code.github.io//"/>
+  <updated>2014-03-31T16:06:49-03:00</updated>
+  <id>http://write-code.github.io//</id>
   <author>
     <name><![CDATA[Ademílson F. Tonato @FTonato e contribuidores]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[O Blog]]></title>
-    <link href="http://yoursite.com/blog/o-blog"/>
+    <link href="http://write-code.github.io//blog/o-blog"/>
     <updated>2014-03-31T12:49:03-03:00</updated>
-    <id>http://yoursite.com/blog/o-blog</id>
+    <id>http://write-code.github.io//blog/o-blog</id>
     <content type="html"><![CDATA[<p>Olá, esse é apenas um blog com intuito de ajudar alguns colegas <strong>Programadores</strong>, sem mais explicações.</p>
 
 <hr />
