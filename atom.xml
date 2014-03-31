@@ -4,7 +4,7 @@
   <title><![CDATA[Write-Code]]></title>
   <link href="http://write-code.github.io//atom.xml" rel="self"/>
   <link href="http://write-code.github.io//"/>
-  <updated>2014-03-31T16:06:49-03:00</updated>
+  <updated>2014-03-31T17:05:14-03:00</updated>
   <id>http://write-code.github.io//</id>
   <author>
     <name><![CDATA[Ademílson F. Tonato @FTonato e contribuidores]]></name>
@@ -12,6 +12,137 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Variáveis]]></title>
+    <link href="http://write-code.github.io//blog/variaveis"/>
+    <updated>2014-03-31T17:04:40-03:00</updated>
+    <id>http://write-code.github.io//blog/variaveis</id>
+    <content type="html"><![CDATA[<h1>Variáveis</h1>
+
+<p>É um nome simbólico criado pelo programador que representa um endereço de memória cujo conteúdo (valor) pode ser alterado durante a execução do programa.</p>
+
+<hr />
+
+<h3>Tipos de Variáveis</h3>
+
+<p><strong>String</strong> Qualquer caracter,</p>
+
+<p><strong>byte</strong> O tipo de dados é um <em>byte</em> inteiro assinado complemento 8-bit dois. Ele tem um valor mínimo de -128 e um valor máximo de 127 (inclusive), pode ser usado para armazenar até mesmo <code>idade</code>, a não ser que alguém que use seu sistema possa ter mais que 127 anos.</p>
+
+<p><strong>short</strong> O tipo de dados <em>short</em> é um inteiro assinado de 16-bit complemento de dois. Use um <em>short</em> para economizar memória em matrizes de grandes dimensões, em situações em que as economias de memória realmente importa.</p>
+
+<p><strong>int</strong> Por padrão, o tipo de dados <em>int</em> é um inteiro de 32-bit.</p>
+
+<p><strong>long</strong> O tipo de dados <em>long</em> é um <strong>int</strong> de 64-bit com dois complementam inteiro. Use este tipo de dados quando você precisa de uma faixa de valores mais ampla do que os fornecidos pela <strong>int</strong>.</p>
+
+<p><strong>float</strong> O tipo de dados <em>float</em> é um de precisão simples de 32 bits, use um float (em vez de <strong>double</strong>), se você precisa economizar memória em grandes conjuntos de números de ponto flutuante.</p>
+
+<p><strong>double</strong> O tipo de dados <em>double</em> é uma dupla precisão 64-bit, (para valores decimais, este tipo de dados é geralmente a opção padrão).</p>
+
+<p><strong>boolean</strong> O tipo de dados <em>boolean</em> tem apenas dois valores possíveis: <em>verdadeiro</em> e <em>falso</em>.</p>
+
+<p><strong>char</strong> O tipo de dados <em>char</em> é um único caracter</p>
+
+<blockquote><p><strong>Observação:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Tipo      </th>
+<th> Valor padrão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>byte      </td>
+<td> 0</td>
+</tr>
+<tr>
+<td>short     </td>
+<td> 0</td>
+</tr>
+<tr>
+<td>int       </td>
+<td> 0</td>
+</tr>
+<tr>
+<td>long      </td>
+<td> 0L</td>
+</tr>
+<tr>
+<td>float     </td>
+<td> 0.0f</td>
+</tr>
+<tr>
+<td>double    </td>
+<td> 0.0d</td>
+</tr>
+<tr>
+<td>char      </td>
+<td> &lsquo;\u0000&rsquo;</td>
+</tr>
+<tr>
+<td>String    </td>
+<td> null</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Referencia <a href="http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html">aqui</a></p></blockquote>
+
+<hr />
+
+<h3>Exemplo</h3>
+
+<p>Declarando <strong>variaveis</strong>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>// Variavel que armazena uma String
+</span><span class='line'>private String titulo; // titulo = "Exemplo"
+</span><span class='line'>
+</span><span class='line'>// Variavel que armazena um decimal
+</span><span class='line'>private double valor; // valor = 10.75
+</span><span class='line'>
+</span><span class='line'>// Variavel que armazena um inteiro
+</span><span class='line'>private int inteiro; // inteiro = 10
+</span><span class='line'>
+</span><span class='line'>------------------
+</span><span class='line'>// Variaveis em apenas uma linha
+</span><span class='line'>
+</span><span class='line'>// Variaveis que armazenam números decimais
+</span><span class='line'>private double nota1, nota2; //nota1 = 10.50, nota2 = 50.10
+</span><span class='line'>
+</span><span class='line'>------------------
+</span><span class='line'>// Variaveis em multiplas linha
+</span><span class='line'>
+</span><span class='line'>// Variavel que armazena um decimal
+</span><span class='line'>private double nota3; // nota3 = 10.75</span></code></pre></td></tr></table></div></figure>
+
+
+<blockquote><p><strong>Observação:</strong> Podemos declarar variaveis em multiplas linhas (forma legivel), ou em apenas uma linha (forma ilegivel).</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[O Blog]]></title>
