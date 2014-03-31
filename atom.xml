@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Write-Code]]></title>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2014-03-31T15:40:32-03:00</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[Ademílson F. Tonato @FTonato e contribuidores]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[O Blog]]></title>
+    <link href="http://yoursite.com/blog/o-blog"/>
+    <updated>2014-03-31T12:49:03-03:00</updated>
+    <id>http://yoursite.com/blog/o-blog</id>
+    <content type="html"><![CDATA[<p>Olá, esse é apenas um blog com intuito de ajudar alguns colegas <strong>Programadores</strong>, sem mais explicações.</p>
+
+<hr />
+
+<h2>Postagens</h2>
+
+<p>As <strong>postagens</strong> do blog, serão referentes as perguntas que eu receber, logo, para cada nova dúvida, um novo post, com uma única <code>excessão*</code></p>
+
+<blockquote><p><strong>Observação:</strong></p>
+
+<ul>
+<li>A única excesão é caso seja uma dúvida comentada em uma postagem já existente, então ela apenas será respondida com um comentário resposta.</li>
+</ul>
+</blockquote>
+]]></content>
+  </entry>
+  
+</feed>

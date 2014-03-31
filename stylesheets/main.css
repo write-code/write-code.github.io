@@ -1,0 +1,100 @@
+
+html {
+  background-color: #E8E7E3;
+  background-image: none;
+
+  border-bottom: 10px solid #DA4D4D;
+  border-top: 10px solid #DA4D4D;
+}
+
+/* Custom header */
+body > header {
+  background-color: #E8E7E3;
+}
+
+body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
+  color: #222;
+}
+
+body > header h2 {
+  font-size: 0.8em;
+}
+
+/* Custom nav */
+body > nav {
+  border-bottom: 3px solid #DA4D4D;
+  padding-bottom: 0.35em;
+  padding-top: 0.35em;
+  position: relative;
+
+  border-top: none;
+  background: none;
+  font-size: 0.7em;
+}
+
+body > nav ul {
+    border: 0 none;
+    display: block;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    padding: 0.15em 0 0;
+}
+
+
+
+body > nav ul li {
+    margin: 0;
+}
+
+body > nav ul li {
+    display: inline;
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+}
+body > nav li + li {
+    margin-left: 0.8em;
+}
+
+body > nav a {
+  color: #6B6B6B;
+  float: left;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding: 0.1em 0;
+  text-decoration: none;
+  text-shadow: 0 1px #EBEBEB;
+}
+a {
+  transition: color 0.3s ease 0s;
+}
+
+
+#content .blog-index article h1 a:hover, #content .blog-index article h1 a:focus {
+  color: #DA4D4D;
+}
+
+
+#content div.pagination a:hover {
+  color: #DA4D4D;
+}
+
+body > footer {
+  background: none;
+  text-align: center;
+  text-shadow: none;
+}
+
+
+#blog-archives h1 a:hover {
+    color: #DA4D4D;
+}
+aside.sidebar:hover a:hover {
+    color: #DA4D4D;
+}
